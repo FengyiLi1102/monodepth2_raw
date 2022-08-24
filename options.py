@@ -27,7 +27,7 @@ class MonodepthOptions:
         self.parser.add_argument("--log_dir",
                                  type=str,
                                  help="log directory",
-                                 default=os.path.join(self.monodepth2_dir, "assets/output_masked"))
+                                 default=os.path.join(self.monodepth2_dir, "assets/output_masked_raw_dk"))
 
         # TRAINING options
         self.parser.add_argument("--model_name",
